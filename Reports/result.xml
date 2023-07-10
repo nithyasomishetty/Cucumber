@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="9.588767">
+    <testcase classname="FB login" name="FB Login negative scenario" time="3.848696">
+        <system-out><![CDATA[Given launch google chrome and hit FB url...................................passed
+And i Enter "Nithya" username...............................................passed
+And i Enter "123" password..................................................passed
+When i click on login button................................................passed
+Then i verified validation error message....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="FB login" name="FB Login negative scenario 2" time="2.833269">
+        <system-out><![CDATA[Given launch google chrome and hit FB url...................................passed
+And i Enter "Monika" username...............................................passed
+And i Enter "456" password..................................................passed
+When i click on login button................................................passed
+Then i verified validation error message....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="FB login" name="FB Login negative scenario 3" time="2.906802">
+        <system-out><![CDATA[Given launch google chrome and hit FB url...................................passed
+And i Enter "Subbu" username................................................passed
+And i Enter "789" password..................................................passed
+When i click on login button................................................passed
+Then i verified validation error message....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
